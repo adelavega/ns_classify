@@ -1,0 +1,3 @@
+Classifier: RidgeClassifierCV(alphas=[  0.1   1.   10. ], class_weight=None, cv=None,
+         fit_intercept=True, loss_func=None, normalize=False,
+         score_func=None)

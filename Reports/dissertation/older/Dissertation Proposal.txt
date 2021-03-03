@@ -1,0 +1,22 @@
+
+	
+			
+		1. Identify regions that across all entire meta-analytic database show great diversity of functions involved
+		2. Identify regions that show a large variability in connectivity across tasks
+			1. Are these similar or the same?
+			2. 
+		3. Select studies by thresholding based on different cognitve topics and test global connectivity of regions aross different types of studies
+			1. Which regions vary the most?
+			2. Which regions have the highest global connectivity across these tasks?
+				1. Do insula and dlPFC markedly differ?
+				2. 
+		4. Test these hypotheses across another set of more detailed meta-analycic data that has functional connectivity such as the human connectome project
+
+3. Resting state network dynamics generalize to task based dynamics
+	- Resting state truly reflects distance in function (open question)
+	- Do any regions have more similar resting state patterns than predicted by function?
+	- Do function and coactivation make divergent predictions
+	- Do these patterns change based on the topic of the study?
+		- Are there regions that change their connectivity more (or have higher connectivity across all?)
+	
+	

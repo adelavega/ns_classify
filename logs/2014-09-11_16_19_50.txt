@@ -1,0 +1,11 @@
+Classifier: Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=auto, tol=0.0001,
+   warm_start=False)
+Loading data from neurosynth...
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/ward_10_Continous_lasso_abs_topics_filt/
+_____________________
+Overall accuracy: -3.99017115279e-06
+_____________________
+

@@ -1,0 +1,5 @@
+0.05
+Classifier: GaussianNB()
+Loading data from neurosynth...
+[###] 33%[######] 66%[##########] 100%
+Classifying...

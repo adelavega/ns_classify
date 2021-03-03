@@ -1,0 +1,5 @@
+0.05
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+[] 2%[] 5%[] 7%[#] 10%[#] 12%[#] 15%[#] 17%[##] 20%[##] 22%[##] 25%[##] 27%[###] 30%[###] 32%[###] 35%[###] 37%[####] 40%[####] 42%[####] 45%[####] 47%[#####] 50%[#####] 52%[#####] 55%[#####] 57%[######] 60%[######] 62%[######] 65%[######] 67%[#######] 70%[#######] 72%[#######] 75%

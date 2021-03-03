@@ -1,0 +1,2 @@
+Classifier: RidgeClassifier(alpha=0.1, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)

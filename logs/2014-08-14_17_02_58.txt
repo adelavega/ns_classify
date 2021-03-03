@@ -1,0 +1,16 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/ward_10_OvA_RidgeClassifier_DM_hard0_roc_abs_topics_filt_tn_50/
+_____________________
+Descriptive results:
+Overall accuracy: 0.0652473618372
+Classifier averages: 0.565247361837
+Dummy averages: 0.5
+Correlation between dummy and clf: (nan, 1.0)
+Mask averages: [0.036, 0.038, 0.092, 0.109, 0.005, 0.122, 0.123, 0.038, 0.09, 0.0]
+_____________________
+

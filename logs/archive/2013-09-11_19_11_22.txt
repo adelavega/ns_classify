@@ -1,0 +1,17 @@
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+Made../results/craddock_30_GB_words_imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_words_imps_var_0.nii.gz
+Made../results/craddock_30_GB_words_imps_cor_0.nii.gz
+Made../results/craddock_30_GB_words_clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_words_imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_words_imps_var_1.nii.gz
+Made../results/craddock_30_GB_words_imps_cor_1.nii.gz
+Made../results/craddock_30_GB_words_clf_shannons_1.nii.gz
+
+[0;34mIn [[1;34m308[0;34m]: [0m
+[0;34mIn [[1;34m309[0;34m]: [0m
+[0;34mIn [[1;34m310[0;34m]: [0m

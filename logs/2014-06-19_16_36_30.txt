@@ -1,0 +1,17 @@
+Classifier: BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Loading data from neurosynth...
+[] 5%[#] 10%[#] 15%[##] 20%[##] 25%[###] 30%[###] 35%[####] 40%[####] 45%[#####] 50%[#####] 55%[######] 60%[######] 65%[#######] 70%[#######] 75%[########] 80%[########] 85%[#########] 90%[#########] 95%[##########] 100%
+Classifying...
+[] 5%[#] 10%[#] 15%[##] 20%[##] 25%[###] 30%[###] 35%[####] 40%[####] 45%[#####] 50%[#####] 55%[######] 60%[######] 65%[#######] 70%[#######] 75%[########] 80%[########] 85%[#########] 90%[#########] 95%[##########] 100%
+../results/ns_20_OvA_BayRidge_DM_hard0_roc_abs_topics_filt_t_0.05/
+_____________________
+Descriptive results:
+Overall accuracy: 0.0933705192166
+Classifier averages: 0.593370519217
+Dummy averages: 0.5
+Correlation between dummy and clf: (nan, 1.0)
+Mask averages: [0.044, 0.126, 0.107, 0.114, 0.159, 0.071, 0.104, 0.065, 0.12, 0.121, 0.104, 0.088, 0.107, 0.033, 0.037, 0.056, 0.137, 0.097, 0.049, 0.129]
+_____________________
+

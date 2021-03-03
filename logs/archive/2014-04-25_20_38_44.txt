@@ -1,0 +1,17 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+Classifying...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+../results/ns_11_OvA_RidgeClassifier_DM_abs_topics_filt_t_0.005_3/
+_____________________
+Descriptive results:
+Overall accuracy: 0.615858600193
+Mask averages: [0.501, 0.642, 0.43, 0.355, 0.641, 0.651, 0.748, 0.615, 0.831, 0.628, 0.733]
+_____________________
+
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%

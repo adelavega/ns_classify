@@ -1,0 +1,30 @@
+craddock_30
+Thresh = 0.07
+Words
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_30_GB_topics_reduced_grid_thresh_0.07.pkl
+Mask averages
+[0.056556471808439646, 0.024271773388679654, 0.030019634333751582, 0.051631601851269297, 0.082397676048596727, 0.059626501102416463, 0.061613456922774021, 0.053324797045325986, 0.065845975668691742, 0.082322871538482958, 0.031669754138807037, 0.073065853003862063, 0.062696250251313049, 0.066131671851086107, 0.053315659919209397, 0.070917528605758506, 0.053487233279381721, 0.085364127002646034, 0.068395510825935799, 0.071633770672285435, 0.069363567086766761, 0.072756889674520001, 0.078632448524798421, 0.045675294885310747, 0.048719708491123358, 0.080546930740773959, 0.039313032158693265, 0.050473489002773458, 0.061090556075847263, 0.058725801834878563]
+Making average map...
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07AvgClass.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07imps_var_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07imps_cor_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07imps_var_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07imps_cor_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_thresh_0.07clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.0603195279245
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+[0;34mIn [[1;34m5[0;34m]: [0m
+[0;34mIn [[1;34m6[0;34m]: [0m

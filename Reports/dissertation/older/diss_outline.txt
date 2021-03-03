@@ -1,0 +1,82 @@
+I**Dissertation / Comps components**
+
+Region-based functional anatomical atlas
+	- Point of this is not the find the regions but simply to see what predict their activity using multivariate techniques
+
+Clustering techniques
+	- Cluster whole brain using feature or coactivation space
+	- See differences
+	- “Functional units”
+
+Flexibility / stability of regions
+	- Based on coacviation patterns
+	- Based on functional labels
+	- Across differ types of functions - how variable
+
+Pairwise distance/comparison
+	- How different are two pairs of regions and what function differentiate them
+	- Good for focused analysis of a certain set of regions
+
+Relationship to resting state 
+	- Resting state truly reflects distance in function (open question)
+	- Do any regions have more similar resting state patterns than predicted by function?
+	- Do function and coactivation make divergent predictions
+	- Do these patterns change based on the topic of the study?
+		- Are there regions that change their connectivity more (or have higher connectivity across all?)
+	
+Vectors of function
+	- Could be used to further charachterize regions that do not behave like spatially homogenous functional units
+	- Maybe can identify those that are less spatially homogenous vs line break
+
+
+Theoretical Questions:
+1. Organization of vmPFC (reread Wager et al.,)
+	1. What are the functional units in vmPFC?
+		1. Use both coactivation and functional 
+			1. Compare analytically overlap and quality of parcellations
+		2. Try to settle on an ideal number of clusters with the caveat that this is not a great metric and is greatly affected by data quality
+		3. Compare to resting state solutions 
+	2. What is the function of the units of vmPFC?
+		1. Use mv analysis to describe function of units
+	3. How different in function are the different units? And what words differentiate them
+	4. What do they have in common?
+	5.. How diverse are the different units in function?
+	6. Perhaps compare to subcortical systems or see which different regions highly coactivate 
+	
+	TESTABLE HYPOTHESIS: vmPFC has high diversity of function
+	
+	
+2. Insula/ACC vs dlPFC
+	1. Introduction - both DLPFC and opercular network have been charachterized and being ‘control networks’
+		1. DLPFC is supposed to be more transiet while operculum is thought to be more sustained
+			1. However, meta-analytically, they can sometimes be confused as are both active across a diverse amount of tasks (both have high diversity)
+		2. DLPFC is also thought to more flexibly switch connectivity to surservent processes
+			1. However, evidence that has been used is not sufficiently diverse - even though the tasks in Cole are supposed to be indendent, they all require flexibly configuring response mappings which is what DLPFC specializes in. 
+				1. Thus their finding may be biased by the task
+				2. Is dlPFC truly more flexibly in its dynamic across a wide specturum of tasks?
+					1. Can we distinguish it from insula which should presumably be active but have low coactivation variability?
+					2. Meta-analytic coactivation may be useful as it closely mirror results from functional conectivity but encompasses a large number of tasks
+					3. 
+	2. Steps:
+		1. Identify regions that across all entire meta-analytic database show great diversity of functions involved
+		2. Identify regions that show a large variability in connectivity across tasks
+			1. Are these similar or the same?
+			2. 
+		3. Select studies by thresholding based on different cognitve topics and test global connectivity of regions aross different types of studies
+			1. Which regions vary the most?
+			2. Which regions have the highest global connectivity across these tasks?
+				1. Do insula and dlPFC markedly differ?
+				2. 
+		4. Test these hypotheses across another set of more detailed meta-analycic data that has functional connectivity such as the human connectome project
+
+3. Resting state network dynamics generalize to task based dynamics
+	- Resting state truly reflects distance in function (open question)
+	- Do any regions have more similar resting state patterns than predicted by function?
+	- Do function and coactivation make divergent predictions
+	- Do these patterns change based on the topic of the study?
+		- Are there regions that change their connectivity more (or have higher connectivity across all?)
+	
+	
+	Carter ideas:
+	Anomaly detection for specific topics across regions
+		- Between regions

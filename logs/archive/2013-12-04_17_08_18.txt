@@ -1,0 +1,26 @@
+Thresh = 0.05
+Topics
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+../results/ns_k_20_Ridge_topics_t_0.05/
+_____________________
+Descriptive results:
+Overall accuracy: 0.120676171571
+Mask averages: [0.102, 0.106, 0.118, 0.104, 0.138, 0.103, 0.119, 0.138, 0.127, 0.122, 0.129, 0.133, 0.121, 0.115, 0.134, 0.131, 0.113, 0.108, 0.118, 0.134]
+_____________________
+
+Made../results/ns_k_20_Ridge_topics_t_0.05/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_Ridge_topics_t_0.05/imps_shannons_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_t_0.05/imps_var_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_t_0.05/imps_cor_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_t_0.05/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_Ridge_topics_t_0.05/imps_shannons_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_t_0.05/imps_var_1.nii.gz
+
+[0;34mIn [[1;34m25[0;34m]: [0m
+[0;34mIn [[1;34m26[0;34m]: [0m
+[0;34mIn [[1;34m27[0;34m]: [0m

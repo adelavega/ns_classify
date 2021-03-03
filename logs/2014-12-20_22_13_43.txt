@@ -1,0 +1,50 @@
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+Classifying...
+[#####] 50%[##########] 100%
+../results/kmeans_coactpca_mpfc2_Ridge_cog_topics_60/
+_____________________
+Overall accuracy: 0.0712847916659
+_____________________
+
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+Classifying...
+[##] 25%[#####] 50%[#######] 75%[##########] 100%
+../results/kmeans_coactpca_mpfc4_Ridge_cog_topics_60/
+_____________________
+Overall accuracy: 0.069712036169
+_____________________
+
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+Classifying...
+[#] 16%[###] 33%[#####] 50%[######] 66%[########] 83%[##########] 100%
+../results/kmeans_coactpca_mpfc6_Ridge_cog_topics_60/
+_____________________
+Overall accuracy: 0.0611219502395
+_____________________
+
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+Classifying...
+[#] 12%[##] 25%[###] 37%[#####] 50%[######] 62%[#######] 75%[########] 87%[##########] 100%
+../results/kmeans_coactpca_mpfc8_Ridge_cog_topics_60/
+_____________________
+Overall accuracy: 0.0551219081659
+_____________________
+
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/kmeans_coactpca_mpfc10_Ridge_cog_topics_60/
+_____________________
+Overall accuracy: 0.0512326945457
+_____________________
+

@@ -1,0 +1,15 @@
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+Loading data...
+[] 0%[#####] 50%[##########] 100%
+[] 0%[#####] 50%Classifying...
+[##########] 100%
+[] 0%[#####] 50%../results/test_100-best_GB_abstract_words_t_0.07/
+_____________________
+Descriptive results:
+Overall accuracy: 0.184345657277
+Mask averages: [0.256, 0.112]
+_____________________
+

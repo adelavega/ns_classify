@@ -1,0 +1,23 @@
+ns_k_11
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_k_11_GB_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.0752886506443
+Mask averages
+[0.054320143463094571, 0.062823491308995574, 0.083806203752964367, 0.06879244472794345, 0.058640107773904215, 0.09675535375170688, 0.069981470881069818, 0.097662298302086045, 0.050454948938820854, 0.10467599079115222, 0.080262703395448221]
+Making average map...
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05_AvgClass.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_11_GB_topics_reduced_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...

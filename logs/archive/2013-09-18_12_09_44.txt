@@ -1,0 +1,44 @@
+craddock_30
+Words
+Thresh = 0.06
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_30_GB_words_thresh_0.06.pkl
+Mask averages
+[0.35370802025325171, 0.31580812032470884, 0.31835693958234673, 0.30742735887569095, 0.34812525676750222, 0.35611001775354406, 0.32775740202228942, 0.3116347439847193, 0.33147239444843157, 0.35769414607477124, 0.28762934706821597, 0.37071682464726752, 0.33518665547148696, 0.24050463182335322, 0.34131445157536433, 0.32393686097982977, 0.34431148549007429, 0.36682382281271247, 0.33398327989476545, 0.34477441408869397, 0.35950188220385582, 0.36554394780794569, 0.37478525011978803, 0.36291496511788851, 0.16925018658523494, 0.33744662858766183, 0.36066449786502908, 0.20929547283465272, 0.23216241268849819, 0.35283558028617396]
+Making average map...
+Made../results/craddock_30_GB_words_thresh_0.06AvgClass.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06imps_var_0.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06imps_cor_0.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06imps_var_1.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06imps_cor_1.nii.gz
+Made../results/craddock_30_GB_words_thresh_0.06clf_shannons_1.nii.gz
+Making region importance plots...
+Making region heatmaps...
+Overall accuracy above baseline: 0.324722566601
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/craddock_30_SVM_words_thresh_0.06.pkl
+Mask averages
+[0.28018822959890366, 0.24517218628877427, 0.23909656383562899, 0.22207451958283722, 0.27571481103314588, 0.24044080048582911, 0.27843437018434014, 0.21888703407755641, 0.25385248010957773, 0.32255106824460344, 0.21578857691715608, 0.28994095887542903, 0.24755654836201033, 0.15141907659311243, 0.26133593958664608, 0.27436225692990002, 0.24275936997512779, 0.29829680756657301, 0.2839344554102039, 0.28208007355135645, 0.27688999125149594, 0.29529342596568015, 0.28465161242734188, 0.30457639235942791, 0.094291949119691659, 0.28294304236362777, 0.28835440793864364, 0.19874109454703784, 0.21116177363724384, 0.28749497320096168]
+Making average map...
+Made../results/craddock_30_SVM_words_thresh_0.06AvgClass.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06imps_shannons_0.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06imps_var_0.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06imps_cor_0.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06clf_shannons_0.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06imps_shannons_1.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06imps_var_1.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06imps_cor_1.nii.gz
+Made../results/craddock_30_SVM_words_thresh_0.06clf_shannons_1.nii.gz
+Making region importance plots...
+Making region heatmaps...
+Overall accuracy above baseline: 0.254942826334

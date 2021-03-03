@@ -1,0 +1,26 @@
+ns_11
+Thresh = 0.07
+Words
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_11_GB_words_reduced_thresh_0.07.pkl
+Mask averages
+[0.41529295493829077, 0.38048723900185027, 0.38559314580165521, 0.35436558767315618, 0.37352137320184964, 0.29722285502023854, 0.37398489033280924, 0.28974660633187599, 0.35373047364897775, 0.27109027786642004, 0.30010177735679777]
+Making average map...
+Made../results/ns_11_GB_words_reduced_thresh_0.07AvgClass.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07imps_shannons_0.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07imps_var_0.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07imps_cor_0.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07clf_shannons_0.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07imps_shannons_1.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07imps_var_1.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07imps_cor_1.nii.gz
+Made../results/ns_11_GB_words_reduced_thresh_0.07clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.345012471016
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)

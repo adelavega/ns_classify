@@ -1,0 +1,55 @@
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_20_GB_topics_reduced_t_0.05
+_____________________
+Descriptive results:
+Overall accuracy: 0.073988205092
+Mask averages: [0.076, 0.079, 0.061, 0.065, 0.112, 0.061, 0.081, 0.086, 0.079, 0.072, 0.065, 0.087, 0.057, 0.074, 0.063, 0.071, 0.055, 0.089, 0.056, 0.092]
+_____________________
+
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_AvgClass.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_20_GB_topics_grid_reduced_t_0.05
+_____________________
+Descriptive results:
+Overall accuracy: 0.0865484283133
+Mask averages: [0.091, 0.083, 0.075, 0.089, 0.112, 0.059, 0.08, 0.09, 0.097, 0.089, 0.075, 0.088, 0.075, 0.094, 0.079, 0.09, 0.072, 0.108, 0.079, 0.107]
+_____________________
+
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_AvgClass.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_grid_reduced_t_0.05_imps_var_1.nii.gz
+
+[0;34mIn [[1;34m19[0;34m]: [0m
+[0;34mIn [[1;34m19[0;34m]: [0m
+[0;34mIn [[1;34m20[0;34m]: [0mDo you really want to exit ([y]/n)? 

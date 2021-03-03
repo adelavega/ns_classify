@@ -1,0 +1,24 @@
+ns_k_20
+Thresh = 0.05
+Topics
+Classifier: ExtraTreesClassifier(bootstrap=False, compute_importances=None,
+           criterion=gini, max_depth=None, max_features=auto,
+           min_density=None, min_samples_leaf=1, min_samples_split=2,
+           n_estimators=10, n_jobs=-1, oob_score=False, random_state=None,
+           verbose=0)
+
+../clfs/../results/ns_k_20_GB_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.0639338570114
+Mask averages
+[0.047101610636156498, 0.046544774523263929, 0.058304143596584583, 0.043222274238595648, 0.074364688095251777, 0.059208375267967552, 0.062594303417484176, 0.063963984772772986, 0.065573457040304095, 0.064121162157205425, 0.0663558083130735, 0.073058237473817608, 0.067107078319066302, 0.070841405686046993, 0.081179768600221219, 0.073044790037970958, 0.058012225463907031, 0.042077469998536773, 0.063721818391776541, 0.09827976419804961]
+Making average map...
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...

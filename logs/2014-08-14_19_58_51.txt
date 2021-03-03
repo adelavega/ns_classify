@@ -1,0 +1,32 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/ward_10_OvA_RidgeClassifier_DM_hard0_roc_abs_topics_filt_tn_600/
+_____________________
+Descriptive results:
+Overall accuracy: 0.135300010116
+Classifier averages: 0.635300010116
+Dummy averages: 0.5
+Correlation between dummy and clf: (nan, 1.0)
+Mask averages: [0.166, 0.213, 0.085, 0.175, 0.107, 0.132, 0.141, 0.122, 0.143, 0.069]
+_____________________
+
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 5%[#] 10%[#] 15%[##] 20%[##] 25%[###] 30%[###] 35%[####] 40%[####] 45%[#####] 50%[#####] 55%[######] 60%[######] 65%[#######] 70%[#######] 75%[########] 80%[########] 85%[#########] 90%[#########] 95%[##########] 100%
+Classifying...
+[] 5%[#] 10%[#] 15%[##] 20%[##] 25%[###] 30%[###] 35%[####] 40%[####] 45%[#####] 50%[#####] 55%[######] 60%[######] 65%[#######] 70%[#######] 75%[########] 80%[########] 85%[#########] 90%[#########] 95%[##########] 100%
+../results/ward_20_OvA_RidgeClassifier_DM_hard0_roc_abs_topics_filt_tn_600/
+_____________________
+Descriptive results:
+Overall accuracy: 0.0635260580423
+Classifier averages: 0.563526058042
+Dummy averages: 0.5
+Correlation between dummy and clf: (nan, 1.0)
+Mask averages: [0.212, 0.195, 0.07, -0.0, 0.048, 0.014, 0.0, 0.003, 0.0, 0.063, 0.007, 0.0, 0.105, 0.035, 0.141, 0.0, 0.146, 0.212, 0.002, 0.018]
+_____________________
+

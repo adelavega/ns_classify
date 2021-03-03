@@ -1,0 +1,24 @@
+ns_k_20
+Thresh = 0.05
+Words
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05.pkl
+Overall accuracy above baseline: 0.101702888298
+Mask averages
+[0.086887433365306785, 0.088500490683730448, 0.091937525463588687, 0.097534629063110848, 0.12552892393334447, 0.079150131307952384, 0.099344306551899825, 0.11874083505722786, 0.10891900273019491, 0.10950516661582435, 0.099458309954228774, 0.10778247365468931, 0.086865236892352884, 0.10491542354017759, 0.11304047383057622, 0.11039255706629283, 0.088477213852317327, 0.099223584465467654, 0.10055625368761997, 0.11729779424464441]
+Making average map...
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...

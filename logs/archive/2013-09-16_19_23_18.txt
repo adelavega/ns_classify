@@ -1,0 +1,22 @@
+Topics
+Thresh = 0.06
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+Mask averages
+[0.081234246532192481, 0.074157586408987008, 0.069889900375937342, 0.077477076141143908, 0.078404973879900253, 0.062485047851191015, 0.083563100354890701, 0.077626497960782345, 0.080700520781382845, 0.082475219301670843, 0.060341015417632107, 0.08302497386014096, 0.074184228622791337, 0.071589757701238724, 0.078961406640326984, 0.076389067344146799, 0.06816779881299663, 0.079817759346603831, 0.07174990416425156, 0.10270583554724007, 0.063260753376142245, 0.072532444534178522, 0.065300473717293653, 0.06773454223082305, 0.061272816714960307, 0.07616215904489082, 0.064142111197666579, 0.07561224778327523, 0.089363615422825393, 0.079163902571221245]
+Making average map...
+Made../results/craddock_30_GB_topics_thresh_0.06AvgClass.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06imps_var_0.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06imps_cor_0.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06imps_var_1.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06imps_cor_1.nii.gz
+Made../results/craddock_30_GB_topics_thresh_0.06clf_shannons_1.nii.gz
+Making region importance plots...
+Making region heatmaps...
+Overall accuracy above baseline: 0.074983032788

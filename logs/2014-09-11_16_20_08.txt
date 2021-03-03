@@ -1,0 +1,11 @@
+Classifier: BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+Loading data from neurosynth...
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/ward_10_Continous_BRidge_abs_topics_filt/
+_____________________
+Overall accuracy: 0.0968984570559
+_____________________
+

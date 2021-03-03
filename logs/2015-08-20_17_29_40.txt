@@ -1,0 +1,5 @@
+0.05
+Classifier: <class 'sklearn.linear_model.ridge.RidgeClassifierCV'>
+Loading data from neurosynth...
+[###] 33%[######] 66%[##########] 100%
+Classifying...

@@ -1,0 +1,57 @@
+Data chapters:
+1) What is the functional organization of medial frontal cortex? 
+
+Introduction
+	- Medial frontal cortex has been association with a wide variety of psychological states, including... ... ... ; However, there is a lack of comprehensive large-scale efforts to synthesize the function of MFC.
+	- 
+Methods/Results
+	- 1) Identify putatively seperable regions of MFC
+		- How do they compare with rs-fc parcellations, cytoarchitechture, DTI, etc...
+	- 2) Charachterize the co-activation differences that pulled these regions apart
+	- 3) What psychological functions best predict activation in each of these regions?
+
+Discussion / Conclusions:
+		1)  Triparitation organization explains broad shifts in function
+		2) pre-SMA/dACC functional differences are clear
+			- dACC more subcortical / pre-SMA more cortical / integration w/ cognitve control
+
+2) What is the functional organization of lateral frontal cortex? 
+
+Introduction
+	- Lateral frontal cortex has similarly been intensively studies and is hypothesized to play an important role in ___ ___ __ ___ ___ (focus on cognitve control, but also list examples from memory, language, motor function etc...)
+	- In particular, there is debate as to the role of IFJ, mid-DLPFC, etc...
+		- Discuss relevant theories, as to have predictions of the results
+		- IFJ vs mid-DLPFC
+		- VLPFC vs DLPFC
+		- caudal rostral gradient along DLPFC
+		- Pick a broad enough but not too broad set of regions and present results
+		- See if you can find a coarser level to do co-activation analysis similarly to MFC paper
+	Methods & Results
+		- Similarly to Ch1
+	Discussion / Conclusion
+	
+3) Are resting state functional 'networks' useful for differentiating function?
+	- Often, people refer to entire networks by their function
+		- E.g. Frontoparietal control network - cognitive control / goal-directed cognition
+		- Dorsal attention network - 
+		- Visual network - 
+	- However, extensive work in more well charachterized networks (such as visual cortex), suggests substantial functional specificialized in sub-regions of networks
+	- Moreover, Powers claims that the derived networks map onto task-related networks - however this has not been extensively tested and/or comprehensively mapped onto different cognitive functions
+	- In the cases of certain networks, it's highly debated to what extent their differ functional - especially those relating to cognitive control 
+		- e.g. salience, fpn, cinguloopercular network
+
+Questions to answer/Methods
+1) Which functions best differentiate networks from one another?
+	- What cognitive functions best describe and differentiate networks from each other
+		- Overall map for each network
+		- Difference maps for 'similar' networks (e.g. CON, FPN, etc...)
+		- Perhaps if time, try more networks - `
+2) How useful are networks in differentating function?
+	- What is within/between network discriminability?
+	- Are certain networks better differentatied from others? Are certain networks more confusable?
+3) Are certain regions often confused with other networks? 
+	- In particular, are certain regions in FPN/CON/SAL difficiult to differentiate? Perhaps these regions are more functional similar than previous thought 
+		- Validate by looking at overall functional signature compare to rest of the brain (suggesting its not just a lack of data, but that they have similar functional signatures)
+		
+Likely conclusion:
+	- Networks capture some level of organization but likely are over simplistic. Certain regions are likely to 'step out' of network. Networks are dynamic and depend on task, so we should not treat these networks as such as dichotomous organizational scheme

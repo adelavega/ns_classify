@@ -1,0 +1,43 @@
+craddock_10
+Thresh = 0.07
+Words
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_10_GB_topics_reduced_grid_thresh_0.07.pkl
+Mask averages
+[0.026256202172947884, 0.039821332049687665, 0.086589205847449877, 0.064639538323142953, 0.080794587358974893, 0.025838792522424381, 0.07599330369358813, 0.052436743618542385, 0.012773294319342869, 0.061946954916767702]
+Making average map...
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07AvgClass.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07imps_shannons_0.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07imps_var_0.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07imps_cor_0.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07clf_shannons_0.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07imps_shannons_1.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07imps_var_1.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07imps_cor_1.nii.gz
+Made../results/craddock_10_GB_topics_reduced_grid_thresh_0.07clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.0527089954823
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/craddock_10_SVM_topics_reduced_thresh_0.07.pkl
+Mask averages
+[-0.0050047449015457445, -0.009851310471450837, -0.056396067746642457, 0.0045690433100134048, 0.0065760009564834309, -0.020435897836168282, -0.043622832657920364, -0.063376870648112441, 0.053884343385977369, -0.063293084629291549]
+Making average map...
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07AvgClass.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07imps_shannons_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07imps_var_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07imps_cor_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07clf_shannons_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07imps_shannons_1.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07imps_var_1.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07imps_cor_1.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.07clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: -0.0196951421239

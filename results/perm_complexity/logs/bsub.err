@@ -1,0 +1,82 @@
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+Traceback (most recent call last):
+  File "perm_complexity.py", line 20, in <module>
+    boot_n=int(iterations), outfile='results/bootstrap_full_mv_' + str(iterations) + '_mFC_60_ ' + str(job_id) + '.csv')
+  File "/home/delavega/projects/perm_complexity/base/mv.py", line 344, in bootstrap_mv_full
+    X = dataset.get_feature_data(features=features)
+  File "/curc/tools/x_86_64/rh6/anaconda/2.0.0/lib/python2.7/multiprocessing/pool.py", line 655, in next
+    raise value
+TypeError: 'numpy.float64' object is not iterable
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')
+/home/delavega/projects/perm_complexity/base/mv.py:322: UserWarning: something went wrong
+  warnings.warn('something went wrong')

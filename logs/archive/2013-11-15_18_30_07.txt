@@ -1,0 +1,28 @@
+ns_k_20
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_k_20_GB_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.0716627522896
+Mask averages
+[0.076665730350678599, 0.070760147080395533, 0.061727055853202283, 0.06210189704948877, 0.093817623347626736, 0.059884035037513696, 0.063588318733387675, 0.071314423212620423, 0.071998842375307334, 0.065406004378485649, 0.059153159085564067, 0.071525383348741284, 0.064921236447968392, 0.083367125844253862, 0.066443712908367106, 0.074596496365703785, 0.064899212550678542, 0.080160370140541157, 0.070941281513930934, 0.09998299016797034]
+Making average map...
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05_AvgClass.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...
+Classifier: NuSVC(cache_size=200, coef0=0.0, degree=3, gamma=0.0, kernel=rbf, max_iter=-1,
+   nu=0.2, probability=False, random_state=None, shrinking=True, tol=0.001,
+   verbose=False)
+
+[0;34mIn [[1;34m15[0;34m]: [0mDo you really want to exit ([y]/n)? 

@@ -1,0 +1,11 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+[0;34mIn [[1;34m8[0;34m]: [0mNOTE: Enter 'c' at the ipdb>  prompt to continue execution.
+ipdb> ipdb> *** Oldest frame
+ipdb> *** Oldest frame
+ipdb> ipdb> *** Newest frame
+ipdb> *** Newest frame
+ipdb> 
+
+[0;34mIn [[1;34m9[0;34m]: [0m

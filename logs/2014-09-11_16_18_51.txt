@@ -1,0 +1,9 @@
+Classifier: LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+Loading data from neurosynth...
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/ward_10_Continous_lm_abs_topics_filt/
+_____________________
+Overall accuracy: 0.0955688400408
+_____________________
+

@@ -1,0 +1,43 @@
+ns_11
+Thresh = 0.07
+Words
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_11_GB_topics_reduced_grid_thresh_0.07.pkl
+Mask averages
+[0.11873639955385759, 0.095137946401027004, 0.10159774878146995, 0.11298481867748207, 0.075677832964760869, 0.093244971473668767, 0.096831241584104014, 0.10029865086824423, 0.09458130968394371, 0.088074904946712301, 0.092026696938366168]
+Making average map...
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07AvgClass.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07imps_shannons_0.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07imps_var_0.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07imps_cor_0.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07clf_shannons_0.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07imps_shannons_1.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07imps_var_1.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07imps_cor_1.nii.gz
+Made../results/ns_11_GB_topics_reduced_grid_thresh_0.07clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.0971993201703
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/ns_11_SVM_topics_reduced_thresh_0.07.pkl
+Mask averages
+[0.054510719109226002, 0.021272384276935501, -0.015277335356427663, -0.0029192992252439374, -0.028169052785733128, -0.041992520888138873, 0.051137306050016804, -0.038611414808192149, 0.032340885890629702, -0.14852707185505762, 0.035259570685763207]
+Making average map...
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07AvgClass.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07imps_shannons_0.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07imps_var_0.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07imps_cor_0.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07clf_shannons_0.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07imps_shannons_1.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07imps_var_1.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07imps_cor_1.nii.gz
+Made../results/ns_11_SVM_topics_reduced_thresh_0.07clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: -0.00736143899147

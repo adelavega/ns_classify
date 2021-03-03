@@ -1,0 +1,70 @@
+Comprehensive Exam Outline
+Alejandro de la Vega
+
+Goal: Expand paper written with Tal to further probe and inform theory with a focus on a few (3-4) specific regions with different functional properties. If findings from these explorations are interesting enough, may focus on them on publishable version.
+
+Title: Region-based Discrimination of function across the brain using large-scale classification
+
+(In Bold are sections that are already written and will be shared with paper with Tal)
+
+1. Introduction
+	1. **General introduction**
+		1. Mapping cognitive functions onto anatomy is central to understanding the functional organization of the human brain. 
+		2. Short review of existing data-driven function to anatomy mappings
+	2. **Review existing shortcomings**
+		1. No function based regional atlas of the human brain
+		2. No measure of how robustly function-to-brain mappings account for brain activity for specific regions
+		3. (Current paper draft has a paragraph on how this method goes beyond what Neurosynth currently does. I think for comps this is not necessary as it should be less Neurosynth methods based)
+			1. Instead, will revise above paragraph to be less focued on Neurosynth specific and more general critiquite of 1): mass univariate approach, 2) voxel vs region based approach, 3) previous methdos dot give insight if one region is heavily involved with one function or involved with many regions (plurality of function). 
+		5. Approaches that simply focus on a region’s overall functions may not be useful in determining what differentiates that regions from regions close in function. I’m going to use this paragraph to introduce necessity of pairwise regions. 
+			1. This is useful for:
+				1. Spatially nearby regions 
+					1. Medial prefrontal cortex - how is it subdivided in function
+				2. Regions within a functional network
+					1. (e.g. Different subregions of the default network)
+				3. Lateralization of function
+					1. Right and left lateral prefrontal cortex
+	3. .** Introduce methods/present study**
+		1. e.g. “Here we introduce a novel region-based functional-anatomical atlas designed to address these limitations. 
+		2. Introduce general methods - overall discriminability measures
+		3. Next, we expanded our methods in order to determine which functions discriminate regions.
+			1. To discriminate regions that are close in function
+			2. Estimate how much regions vary in function in comparison to others
+				1. Regions that serve a specific function should
+	4. In this review, we will apply our newly developed methods to the whole brain, review organizational principles that are revealed across the brain, and focus on the results from specific sets of regions:
+		1. Regions that putatively serve a specific function
+			1. Sensory regions - visual cortex
+		2. Regions that are active across many different types of tasks and should be difficult to dicriminate.
+			1. Anterior insula
+		3. A set of spatially nearby regions that have been difficult to discriminat previously
+			1. vmPFC
+		4.  Regions within a functional network
+			1. Default network
+
+2. Analysis I - Overall discriminability of regions
+This section will focus on whole-brain results 
+	1. **Methods** (Entire section will be the same as published paper)
+		1. Database
+		2. Topic modeling
+		3. Clustering analysis
+		4. Classifier analyses
+	2. Results and Discussion
+
+3. Analysis II - Discriminability between regions of the brain
+	1. Methods
+		1. Same as above except
+		2. Pairwise classification methods
+	2. Results and Discussion
+
+4. General disussion
+	1. General discussion points
+	2. Review results from highlighted regions
+		1. Regions that putatively serve a specific function
+			1. Sensory regions - visual cortex
+		2. Regions that are active across many different types of tasks and should be difficult to dicriminate.
+			1. Anterior insula
+		3. A set of spatially nearby regions that have been difficult to discriminat previously
+			1. vmPFC
+		4.  Regions within a functional network
+			1. Default network
+

@@ -1,0 +1,26 @@
+
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+Mask averages
+[0.12849914187345005, 0.11576260378214118, 0.11848257825935576, 0.12607036122341136, 0.12187196125242775, 0.12266568952512052, 0.13588846159364715, 0.12231096450794178, 0.12334452212597115, 0.11299956130184484, 0.13838378237821891, 0.12892232096777892, 0.13636210442692712, 0.11744649606691571, 0.11534785883920005, 0.1307249073669205, 0.125612673645008, 0.14215970013582285, 0.12515653717951711, 0.12812796399951565, 0.13006911250429251, 0.11498824548960478, 0.1138169449158655, 0.11488035034474274, 0.1321184806146429, 0.11783731822690088, 0.11091336332071766, 0.10236616020030992, 0.11722661139110734, 0.12694937473863074]
+Making average map...
+Made../results/craddock_30_GB_topics_AvgClass.nii.gz
+Making various importance stat brain maps...
+Made../results/craddock_30_GB_topics_imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_imps_var_0.nii.gz
+Made../results/craddock_30_GB_topics_imps_cor_0.nii.gz
+Made../results/craddock_30_GB_topics_clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_clf_var_0.nii.gz
+Made../results/craddock_30_GB_topics_imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_imps_var_1.nii.gz
+Made../results/craddock_30_GB_topics_imps_cor_1.nii.gz
+Made../results/craddock_30_GB_topics_clf_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_clf_var_1.nii.gz
+Making importance stat heat maps
+Making region importance plots...
+Making region heatmaps...
+Overall accuracy above baseline: 0.123243538407

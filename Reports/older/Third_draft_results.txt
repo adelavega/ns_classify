@@ -1,0 +1,41 @@
+# Characterizing functional discriminability across the brain using large-scale classification
+by Alejandro de la Vega
+
+## Introduction
+
+Mapping cognitive functions to anatomical structures of the brain is central to cognitive neuroscience’s mission of understanding the functional organization of the human brain. To this end, a large majority of functional magnetic resonance imaging (fMRI) studies involve scanning participants while they perform a task that elicits a specific cognitive process. However, the information that can be gleaned for any one study is limited by the scope of cognitive functions being studied and noise inherent to brain measurement. Fortunately, the recent development of large scale databases of neuroimaging studies, such as Neurosynth or BrainMap, have enabled a new breed of data driven approaches that can harness the power of many studies to make more robust inferences about the functional organzation of the brain. 
+
+These databases can be used be used to generate meta-analyses of which cognitive functions map consistently to different regions of the brain. 
+
+	
+	
+Here we applied a data-driven approach to the Neurosynth data in order to determine how well studies that activate different brain regions can be differentiated using Neurosynth semantics and determine which cognitive functions support successful classification. First, we divided the brain into discrete regions using the Craddock brain parcellation. Next, to establish how well we could differentiate brain regions in general, for each region, we trained a classifier to discriminate studies that activate that region versus those that did not. However, since the features that differentiate regions from another is likely to vary depending on which regions are being compared, we also discriminated regions using a ‘pairwise combinatorial’ classification approach. In this approach, we trained classifiers to discriminate all pairwise combinations of brain regions against each other. Thus, we determined how well each region can be differentiated from every other region in the brain, and which cognitive functions enable classification.
+	
+## Methods
+### Neurosynth database
+The Neurosynth database (neurosynth.org), is a repository over 8,000 neuroimaging studies that is populated by scraping online neuroimaging journals (such as *Neuroimage*). The scraping algorithm finds the peak activation coordinates within the paper and stores that along with the text of the paper. The text is first filtered to remove non-semantic words (e.g. “the”) and the frequency of terms appearing in each paper is calculated.
+
+#### Topics
+Because single term frequencies can be noisy and be semantically amiguous, we instead used a set of Neurosynth topics as our features for classification (Poldrack et al., 2013). The topics are a reduction on the space of Neurosynth words and group together words that are semantically related. Thus, each topic loads onto Neurosynth terms to varying extents. For example, an example topic that reflects reward processing may show high loadings for the words “outcome”, “anticipation”, “loss”, and “gain”. Meta-analyses of these topics have shown robust associations to the expected brain systems. Each topic also loads onto each paper to a varying extent, reflect the semantics of the study. 
+
+### Active versus inactive classification
+For each region, we classified studies that activated a region against studies that did not. First, we queried Neurosynth for studies that activated a region above a threshold (e.g. 0.05% of voxels in a region active) as well as studies that did not activate a region (0% of voxels active). Using 4-fold cross-validation, our classifier learned to classify studies as either ‘active’ or ‘inactive’ and was asked to predict the class of new studies that it had not seen before. The resulting metrics of the testing were the classification performance and a regression weight for each Neurosynth feature used in the problem. We termed this regression weight the ‘feature importance’. 
+
+### Pairwise combinatorial classification
+First, we determined all pairwise combinations of brain regions in our parcellation scheme, resulting in n choose 2 combinations (e.g. 30 regions = 435 combinations). For each pair, we queried Neurosynth for studies that activated each region above a threshold (e.g. 0.05% of voxels in a region active). Next, we removed all studies that activated both regions, as they cannot be labeled correctly in classification. Using 4-fold cross-validation, our classifier learned to classify studies as either ‘region 1’ or ‘region 2’ and was asked to predict the label of new studies that it had not seen before. The resulting metrics were again classification performance and feature importance weights. We obtained these metrics for each region against every other region in the brain.
+
+### Classification algorithm and evaluation
+We used a Ridge Classifier algorithm for classification. Ridge regression is an l-2 penalized regression which imposes a penalty on the size of coefficients. This allows the regression to effectively handle a large number of potentially colinear variables. Moreover, it has been found to perform at state-of-the-art levels (cite) and outputs easy to interpret linear weights for each variable in the regression. To adapt ridge regression into a classifier, one class was labeled as 0 while the other class was labeled as 1. Next, we simply performed The classification boundary was 0.5, such that if a study was classified above 0.5, it was predicted to belong to class 1.
+
+We evaluated the classifier using 4-fold classification. For each classification problem, the classifier was trained on 3/4ths of the data and tested on the remaining 1/4 that it had not seen during training. This was done four times such that each 1/4 of the data served as the test data once. 
+
+We summarized classification performance suing the received operating characteristic (ROC) area under the curve (AUC). The advantage of this metric over raw accuracy is that it is ROC AUC is not biased by the ratio of observations in the two classes. This is important because some regions will draw upon more studies that others for classifications, and it is crucial to have a comparable performance metric across regions. 
+
+#### Feature importances
+An important aspect of this analysis is not only to classify regions, but to determine *which* features are important for classification. As the Ridge classifier is a linear regression, weights are assigned to each feature which indicate the likelihood of a class given that feature. Thus, positive weights for features indicate that the precense of that feature is associated with the region associated with the  positive class label while negative weights indicate the precense of the negative class. For example, if comparing ‘visual cortex’ (label 0) with ‘amygdala’ (label 1), positive weights indicate that the presence of that feature is predictive of ‘amygdala’, while negative weights predict ‘visual cortex’. 
+
+### Brain parcellation scheme
+We adopted a brain parcellation scheme developed by Craddock et al., (2011), which divides the brain into region as determined by resting state functional connectivity. We selected this set of masks because each parcel is a spatially constrained area, rather than a network. Thus, we could quantify how well spatially distinct regions of the brain can be discriminated. Moreover, this parcellation is available in various levels of resolution (10-100 regions), which allowed us to test how the discriminability of brain regions would be affected by the size and resolution of the regions. We three of these parcellations with 20, 30, and 40 regions. 
+
+**Results**
+

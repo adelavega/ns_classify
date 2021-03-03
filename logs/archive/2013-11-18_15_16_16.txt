@@ -1,0 +1,16 @@
+ns_k_11
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_11_GB_topics_reduced_thresh_0.05
+_____________________
+Descriptive results:
+Overall accuracy: 0.0703175334105
+
+[0;34mIn [[1;34m26[0;34m]: [0m[0;34m   ....: [0m[0;34m   ....: [0mDo you really want to exit ([y]/n)? [0;34m   ....: [0m[0;34m   ....: [0m
+[0;34mIn [[1;34m27[0;34m]: [0m
+[0;34mIn [[1;34m27[0;34m]: [0m

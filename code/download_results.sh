@@ -1,0 +1,1 @@
+rsync -avzh --exclude 'masks*' --exclude '*sh' --exclude '*py' --exclude '*abs*' -e ssh delavega@blogin01.rc.colorado.edu:/projects/delavega/ ../results/

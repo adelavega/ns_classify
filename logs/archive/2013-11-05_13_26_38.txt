@@ -1,0 +1,44 @@
+ns_k_20
+Thresh = 0.05
+Words
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05.pkl
+Overall accuracy above baseline: 0.121852443183
+Mask averages
+[0.10767160441864032, 0.10627012369330152, 0.1073739873727526, 0.10201691137752632, 0.13367713453045107, 0.11443513477163957, 0.12059549267314491, 0.14599670439287477, 0.14408581025868397, 0.11510894672866333, 0.13070209456369652, 0.1349325645856041, 0.11628730366276162, 0.11917784250337735, 0.13043260030449852, 0.12689291699370031, 0.11028838180111537, 0.11815976220977499, 0.11080238876343267, 0.14214115804638178]
+Making average map...
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_grid_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/ns_k_20_GB_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.107066125058
+Mask averages
+[0.09065881987566464, 0.095652722686944525, 0.09627326579923734, 0.095162803456836698, 0.13615654339323377, 0.093687121113630506, 0.116174351723475, 0.12848487703908151, 0.11614904217397695, 0.11104218863365037, 0.095522188057966043, 0.1209309573626776, 0.090685677802816306, 0.099710621462912916, 0.1259796455374072, 0.10864446869664368, 0.10477036947409085, 0.095298133936075488, 0.10108086955807882, 0.11925783337611601]
+Making average map...
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...

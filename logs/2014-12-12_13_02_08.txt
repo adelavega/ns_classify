@@ -1,0 +1,11 @@
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver='auto', tol=0.001)
+Loading data from neurosynth...
+['topic1', 'topic10', 'topic11', 'topic12', 'topic15', 'topic19', 'topic2', 'topic20', 'topic23', 'topic24', 'topic26', 'topic27', 'topic29', 'topic30', 'topic32', 'topic34', 'topic35', 'topic37', 'topic38', 'topic39', 'topic4', 'topic40', 'topic44', 'topic48', 'topic49', 'topic5', 'topic50', 'topic53', 'topic57', 'topic58', 'topic59', 'topic6', 'topic7', 'topic9']
+Classifying...
+[] 3%[] 6%[#] 10%[#] 13%[#] 16%[##] 20%[##] 23%[##] 26%[###] 30%[###] 33%[###] 36%[####] 40%[####] 43%[####] 46%[#####] 50%[#####] 53%[#####] 56%[######] 60%[######] 63%[######] 66%[#######] 70%[#######] 73%[#######] 76%[########] 80%[########] 83%[########] 86%[#########] 90%[#########] 93%[#########] 96%[##########] 100%
+../results/ward_f30_Ridge_cog_topics/
+_____________________
+Overall accuracy: 0.0969406154342
+_____________________
+

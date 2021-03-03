@@ -1,0 +1,83 @@
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+Filename: base/multipleclassifier.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    78    982.6 MiB      0.0 MiB       @profile
+    79                                 def load_data(self, features, X_threshold):
+    80                                     """ Load data into c_data """
+    81    982.6 MiB      0.0 MiB           from neurosynth.analysis.reduce import average_within_regions
+    82                             
+    83                                     # Load Masks by studies matrix
+    84                             
+    85                                     # ADD FEATURE TO FILTER BY FEATURES
+    86   1002.8 MiB     20.2 MiB           masks_by_studies = average_within_regions(self.dataset, self.mask_img, threshold = self.thresh)
+    87                             
+    88   1002.8 MiB      0.0 MiB           study_ids = self.dataset.feature_table.data.index
+    89                             
+    90   1002.8 MiB      0.0 MiB           print "Loading data from neurosynth..."
+    91                             
+    92   1002.8 MiB      0.0 MiB           pb = tools.ProgressBar(len(list(masks_by_studies)), start=True)
+    93                             
+    94   1002.8 MiB      0.0 MiB           self.ids_by_masks = []
+    95   1002.8 MiB      0.0 MiB           self.data_by_masks = []
+    96   1033.0 MiB     30.2 MiB           for mask in masks_by_studies:
+    97                             
+    98   1033.0 MiB      0.0 MiB               m_ids = study_ids[np.where(mask == True)[0]]
+    99   1033.0 MiB      0.0 MiB               self.ids_by_masks.append(m_ids)
+   100   1033.0 MiB      0.0 MiB               self.data_by_masks.append(self.dataset.get_feature_data(ids=m_ids))
+   101   1033.0 MiB      0.0 MiB               pb.next()
+   102                             
+   103   1033.0 MiB      0.0 MiB           self.mask_num = masks_by_studies.shape[0]    
+   104   1033.0 MiB      0.0 MiB           self.mask_pairs = list(itertools.permutations(range(0, self.mask_num), 2))
+   105                             
+   106   1033.0 MiB      0.0 MiB           filename = path.join(mkdtemp(), 'c_data.dat')
+   107   1033.0 MiB      0.0 MiB           self.c_data = np.memmap(filename, dtype='object',
+   108   1033.1 MiB      0.0 MiB                                   mode='w+', shape=(self.mask_num, self.mask_num))
+   109                                     # Load data
+   110   1047.6 MiB     14.5 MiB           for pair in self.mask_pairs:
+   111   1047.6 MiB      0.0 MiB               reg1_ids = self.ids_by_masks[pair[0]]
+   112   1047.6 MiB      0.0 MiB               reg2_ids = self.ids_by_masks[pair[1]]
+   113                             
+   114   1047.6 MiB      0.0 MiB               reg1_set = list(set(reg1_ids) - set(reg2_ids))
+   115   1047.6 MiB      0.0 MiB               reg2_set = list(set(reg2_ids) - set(reg1_ids))
+   116                             
+   117   1046.5 MiB     -1.0 MiB               x1 = self.data_by_masks[pair[0]]
+   118   1046.5 MiB      0.0 MiB               x1 = np.array(x1)[np.where(np.in1d(reg1_ids, reg1_set))[0]]
+   119                             
+   120   1046.5 MiB      0.0 MiB               x2 = self.data_by_masks[pair[1]]
+   121   1046.5 MiB      0.0 MiB               x2 = np.array(x2)[np.where(np.in1d(reg2_ids, reg2_set))[0]] 
+   122                             
+   123   1046.5 MiB      0.0 MiB               y = np.array([0]*len(reg1_set) + [1]*len(reg2_set))
+   124                             
+   125   1047.0 MiB      0.5 MiB               X = np.vstack((x1, x2))
+   126                             
+   127   1047.0 MiB      0.0 MiB               if X_threshold is not None:
+   128                                             X = binarize(X, X_threshold)
+   129                             
+   130   1047.0 MiB      0.0 MiB               from neurosynth.analysis.classify import regularize
+   131   1047.6 MiB      0.5 MiB               X = regularize(X, method='scale')
+   132                             
+   133   1047.6 MiB      0.0 MiB               self.c_data[pair] = (X, y)
+
+
+Classifying...
+> /usr/local/lib/python2.7/site-packages/neurosynth/analysis/classify.py(396)feat_select_cvs()
+    395             # Test classifier
+--> 396             s = get_score(X_test, y_test, self.clf, scoring = scoring)
+    397 
+
+ipdb> 
+KeyboardInterrupt
+> /usr/local/lib/python2.7/site-packages/neurosynth/analysis/classify.py(396)feat_select_cvs()
+    395             # Test classifier
+--> 396             s = get_score(X_test, y_test, self.clf, scoring = scoring)
+    397 
+
+ipdb> *** SyntaxError: invalid syntax (<stdin>, line 1)
+ipdb> 

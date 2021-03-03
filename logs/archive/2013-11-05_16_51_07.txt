@@ -1,0 +1,23 @@
+ns_k_20
+Thresh = 0.05
+Words
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+[Parallel] Pool seems closed
+
+[0;34mIn [[1;34m8[0;34m]: [0m
+[0;34mIn [[1;34m8[0;34m]: [0mDo you really want to exit ([y]/n)? 

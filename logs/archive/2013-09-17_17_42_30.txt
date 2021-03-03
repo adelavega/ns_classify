@@ -1,0 +1,23 @@
+craddock_30
+Words
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_30_GB_words_.pkl
+Mask averages
+[0.34531773573495456, 0.30223686566694574, 0.30782927586974668, 0.30176262685139238, 0.37126643675049908, 0.33655458412100692, 0.32390624250106037, 0.28486122152108889, 0.33530936164821656, 0.36789517208674422, 0.30087261335223769, 0.34865071041260642, 0.30971378118135828, 0.23554158880036469, 0.35964251319938473, 0.31576420351757012, 0.34187249827484378, 0.34924523325979123, 0.33725288091763811, 0.34525750827590274, 0.36194565244482158, 0.36715421117963903, 0.36058784102813957, 0.36182477472411489, 0.16358371865373475, 0.3551469169371621, 0.3600337789510753, 0.21066108548858839, 0.24168241711520522, 0.34698287973371822]
+Making average map...
+Made../results/craddock_30_GB_words_AvgClass.nii.gz
+Made../results/craddock_30_GB_words_imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_words_imps_var_0.nii.gz
+Made../results/craddock_30_GB_words_imps_cor_0.nii.gz
+Made../results/craddock_30_GB_words_clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_words_imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_words_imps_var_1.nii.gz
+Made../results/craddock_30_GB_words_imps_cor_1.nii.gz
+Made../results/craddock_30_GB_words_clf_shannons_1.nii.gz
+Making region importance plots...
+
+[0;34mIn [[1;34m13[0;34m]: [0m

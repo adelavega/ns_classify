@@ -1,0 +1,50 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+../results/ns_k_20_Ridge_topics_junk_t_0.07/
+_____________________
+Descriptive results:
+Overall accuracy: 0.119935153041
+Mask averages: [0.136, 0.137, 0.11, 0.12, 0.126, 0.11, 0.119, 0.141, 0.114, 0.11, 0.104, 0.144, 0.116, 0.117, 0.132, 0.13, 0.111, 0.115, 0.101, 0.105]
+_____________________
+
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/imps_shannons_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/imps_var_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/imps_cor_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/imps_shannons_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/imps_var_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/imps_cor_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_junk_t_0.07/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+../results/ns_k_20_Ridge_topics_red_t_0.07/
+_____________________
+Descriptive results:
+Overall accuracy: 0.0934067264417
+Mask averages: [0.114, 0.131, 0.085, 0.087, 0.107, 0.084, 0.074, 0.117, 0.082, 0.079, 0.073, 0.135, 0.076, 0.08, 0.104, 0.115, 0.065, 0.082, 0.077, 0.1]
+_____________________
+
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/imps_shannons_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/imps_var_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/imps_cor_0.nii.gz
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/imps_shannons_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/imps_var_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/imps_cor_1.nii.gz
+Made../results/ns_k_20_Ridge_topics_red_t_0.07/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...

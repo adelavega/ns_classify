@@ -1,0 +1,36 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+Classifying...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+../results/ns_11OvA_RidgeClassifier_DM_abs_topics_filt_t_0.005_1/
+_____________________
+Descriptive results:
+Overall accuracy: 0.152586355027
+Classifier averages: 0.615858600193
+Dummy averages: 0.463272245166
+Correlation between dummy and clf: (0.83961366483063737, 0.0012241499052648203)
+Mask averages: [0.501, -0.038, 0.43, 0.355, -0.06, -0.044, -0.018, 0.615, 0.001, -0.053, -0.011]
+_____________________
+
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+Classifying...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+../results/ns_11OvA_RidgeClassifier_DM_abs_topics_filt_t_0.015_1/
+_____________________
+Descriptive results:
+Overall accuracy: 0.451839219864
+Classifier averages: 0.451839219864
+Dummy averages: 0.0
+Correlation between dummy and clf: (nan, 1.0)
+Mask averages: [0.396, 0.448, 0.332, 0.301, 0.45, 0.545, 0.431, 0.529, 0.564, 0.433, 0.542]
+_____________________
+
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%

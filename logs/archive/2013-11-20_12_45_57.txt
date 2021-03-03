@@ -1,0 +1,53 @@
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_60_GB_topics_reduced_t_0.05
+_____________________
+Descriptive results:
+Overall accuracy: 0.0588495401935
+Mask averages: [0.051, 0.043, 0.058, 0.052, 0.057, 0.048, 0.056, 0.061, 0.056, 0.078, 0.062, 0.051, 0.054, 0.066, 0.054, 0.059, 0.056, 0.056, 0.05, 0.053, 0.058, 0.061, 0.054, 0.052, 0.066, 0.062, 0.049, 0.058, 0.049, 0.059, 0.066, 0.058, 0.05, 0.054, 0.059, 0.081, 0.065, 0.063, 0.078, 0.055, 0.046, 0.081, 0.07, 0.065, 0.064, 0.046, 0.056, 0.064, 0.061, 0.058, 0.058, 0.06, 0.067, 0.062, 0.075, 0.051, 0.059, 0.055, 0.06, 0.058]
+_____________________
+
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_AvgClass.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_imps_shannons_0.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_imps_var_0.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_imps_cor_0.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_imps_shannons_1.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_imps_var_1.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_imps_cor_1.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Classifier: NuSVC(cache_size=200, coef0=0.0, degree=3, gamma=0.0, kernel=rbf, max_iter=-1,
+   nu=0.15, probability=False, random_state=None, shrinking=True,
+   tol=0.001, verbose=False)
+
+../results/ns_k_60_NuSVC_topics_reduced_t_0.05
+_____________________
+Descriptive results:
+Overall accuracy: 0.0131502403126
+Mask averages: [-0.005, 0.003, 0.016, 0.014, 0.015, 0.024, 0.014, 0.01, 0.013, -0.0, 0.016, 0.01, 0.015, 0.016, 0.015, 0.01, 0.008, 0.013, 0.013, 0.013, 0.016, 0.016, 0.012, 0.011, 0.008, 0.013, 0.008, 0.01, 0.017, 0.009, 0.023, 0.019, 0.008, 0.011, 0.017, 0.007, 0.021, 0.015, 0.004, 0.025, 0.014, 0.001, 0.003, 0.018, 0.014, 0.008, 0.025, 0.013, 0.014, 0.016, 0.015, 0.016, 0.021, 0.013, 0.014, 0.017, 0.012, 0.014, 0.015, 0.022]
+_____________________
+
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_AvgClass.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_imps_shannons_0.nii.gz
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_imps_var_0.nii.gz
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_imps_cor_0.nii.gz
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_imps_shannons_1.nii.gz
+Made../results/ns_k_60_NuSVC_topics_reduced_t_0.05_imps_var_1.nii.gz
+
+[0;34mIn [[1;34m2[0;34m]: [0m
+[0;34mIn [[1;34m3[0;34m]: [0m

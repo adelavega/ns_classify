@@ -1,0 +1,72 @@
+craddock_30
+Words
+Thresh = 0.02
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_30_GB_topics_reduced_grid_0.02.pkl
+Mask averages
+[0.12846301567855012, 0.12259942096879413, 0.12574126375882166, 0.11319720533608936, 0.12411068550603271, 0.11096444238094336, 0.12864821029426293, 0.11267991955025852, 0.10915533849255228, 0.1160156348015719, 0.11798641097530943, 0.13132691088191517, 0.12763298317541114, 0.1197140380914162, 0.11452305458736803, 0.12556930472155542, 0.10797661994995451, 0.12240404719015228, 0.11643183096934424, 0.10697471778957279, 0.11002650257175681, 0.1135279419848706, 0.11106617204711515, 0.12426647350124156, 0.13523317879733909, 0.1199199234763471, 0.11245995654561464, 0.12144530648308267, 0.1286554284393541, 0.11573548320623149]
+Making average map...
+Made../results/craddock_30_GB_topics_reduced_grid_0.02AvgClass.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02imps_var_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02imps_cor_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02imps_var_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02imps_cor_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.02clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.119148380738
+Thresh = 0.0466666666667
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_30_GB_topics_reduced_grid_0.0466666666667.pkl
+Mask averages
+[0.1162415061660462, 0.10386474789045566, 0.10454564583314073, 0.10951939852875618, 0.11427210004831263, 0.10938082584332169, 0.11444841312797044, 0.10802504169466577, 0.10765734794910461, 0.12391397735426433, 0.12416522270792656, 0.10385921366514381, 0.12070750977586574, 0.11284774404993166, 0.1024367659445983, 0.11414892285838507, 0.11607694397116801, 0.10950500273568671, 0.11438044183212287, 0.10976230046176501, 0.10386652978770247, 0.10976682130660077, 0.10577635983635186, 0.10863267741294058, 0.12942560967897676, 0.099670825317374409, 0.11749915676408353, 0.10723803260546606, 0.11468269040855944, 0.11610770633757041]
+Making average map...
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667AvgClass.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667imps_var_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667imps_cor_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667imps_var_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667imps_cor_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0466666666667clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.111747516063
+Thresh = 0.0733333333333
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../clfs/../results/craddock_30_GB_topics_reduced_grid_0.0733333333333.pkl
+Mask averages
+[0.096673514233643246, 0.11047600120914537, 0.087188608359915987, 0.090838264749077954, 0.10903625975457389, 0.12272284084593935, 0.10190736407003573, 0.089081308244889412, 0.094827781403608868, 0.11184226121336084, 0.08502992423347229, 0.10575990559486999, 0.095267375992108147, 0.11402531824418016, 0.11853909562503642, 0.10822361559003441, 0.1426634123018129, 0.10934266969384121, 0.09858110813783888, 0.11464926603749155, 0.10435197573598094, 0.12329408309449919, 0.1213992537978511, 0.11030965982154126, 0.097674856644849137, 0.0996759952746918, 0.10217684283904396, 0.086746219435547903, 0.084090330559680404, 0.10037635620438866]
+Making average map...
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333AvgClass.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333imps_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333imps_var_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333imps_cor_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333clf_shannons_0.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333imps_shannons_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333imps_var_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333imps_cor_1.nii.gz
+Made../results/craddock_30_GB_topics_reduced_grid_0.0733333333333clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: 0.104559048965
+Thresh = 0.1
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+[0;34mIn [[1;34m146[0;34m]: [0m

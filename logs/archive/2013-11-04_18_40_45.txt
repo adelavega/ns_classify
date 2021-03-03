@@ -1,0 +1,22 @@
+craddock_10
+Thresh = 0.05
+Words
+Topics
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/craddock_10_SVM_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: -0.0912509541189
+Mask averages
+[-0.14014634946523491, -0.032543148348450374, -0.083504764180051538, -0.13285266657815675, -0.083946456808298889, -0.12455607210509176, -0.04758188530118352, -0.097739983932794358, -0.072428615320772202, -0.097209599149254311]
+Making average map...
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+
+[0;34mIn [[1;34m2[0;34m]: [0m
+[0;34mIn [[1;34m3[0;34m]: [0m
+[0;34mIn [[1;34m4[0;34m]: [0m

@@ -1,0 +1,25 @@
+Classifier: RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+[] 9%[#] 18%[##] 27%[###] 36%[####] 45%[#####] 54%[######] 63%[#######] 72%[########] 81%[#########] 90%[##########] 100%
+Classifying...
+> /Users/aleph4/Dropbox/projects/ns_classify/code/base/classifiers/__init__.py(154)classify()
+    153 
+--> 154                 if feat_select:
+    155                     self.features_selected[index] = output['features_selected']
+
+ipdb> 
+KeyboardInterrupt
+> /Users/aleph4/Dropbox/projects/ns_classify/code/base/classifiers/__init__.py(154)classify()
+    153 
+--> 154                 if feat_select:
+    155                     self.features_selected[index] = output['features_selected']
+
+ipdb> 
+KeyboardInterrupt
+> /Users/aleph4/Dropbox/projects/ns_classify/code/base/classifiers/__init__.py(154)classify()
+    153 
+--> 154                 if feat_select:
+    155                     self.features_selected[index] = output['features_selected']
+
+ipdb> 

@@ -1,0 +1,22 @@
+ns_k_11
+Thresh = 0.05
+Words
+Topics
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/ns_k_11_SVM_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.00124490415917
+Mask averages
+[0.047943916944510459, 0.010602114349148961, 0.0039248470603990724, 0.012637182937648889, 0.022513854292904544, -0.041986850811231491, 0.058813779198367486, -0.019811853542772762, 0.033032720156318404, -0.14181701312516221, 0.027841248290762888]
+Making average map...
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_11_SVM_topics_reduced_thresh_0.05imps_var_1.nii.gz
+
+[0;34mIn [[1;34m5[0;34m]: [0m

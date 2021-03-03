@@ -1,0 +1,35 @@
+# OBHM Abstract
+
+##  Characterizing functional specialization in the brain using large-scale classification of fMRI data
+
+4000 Total Character Limit (includes spaces)
+
+### Introduction
+Large scale data mining of neuroimaging data promises to further our understanding of  functional specialization in the brain. Most meta-analyses to this end have focused on characterizing cognitive functions based on brain activity {Phan:2002cm}. A relatively unexplored aspect is the reverse: which cognitive functions characterize different regions of the brain? However, because most cognitive functions involve many regions of the brain, simply comparing the most correlated functions for each region is insufficient. 
+
+We used machine-learning classification to solve this problem as these algorithms excel in learning which features (i.e. cognitive functions) can be used to differentiate classes (i.e. brain regions).  Using the Neurosynth database, we classified which regions fMRI studies activate based on their associated cognitive functions. We then characterized regions based on which functions were most useful in distinguishing them from one another.
+
+### Methods
+
+Data analyzed in this project was from the Neurosynth project (neurosynth.org), a dataset of over 10,000 fMRI studies containing the peak activations reported and the frequency of the terms used in the article {Yarkoni:2011hs}.
+
+Comparing two regions at the time, we selected papers that activate either, but not both, regions. Next, we trained a classifier using cross-validation to label which region each study activates. We then queried the classifier for how important each feature (e.g. term) was in classification. Gradient boosted trees classifiers were used because of their state-of-the-art performance and ability to deal with non-linear classification boundaries.
+
+We applied this analysis to the whole brain by classifying regions against each other in a pair-wise fashion. Regions were determined by clustering voxels in the database based on their corresponding term frequency using k-means clustering (k = 60). Region-level metrics were obtained by averaging accuracy and feature importance across classifications for a given region against all others.
+
+Finally, the analysis was redone using semantic topics previously derived for each study using topic modeling {Poldrack:2012ew}. These topics describe the conceptual structure of the database more reliably and eased the interpretation of results. 
+
+### Results
+
+Parcellation of the brain resulted in spatially separate regions and reasonable mirroring between hemispheres, indicating a sensible parcellation (Fig 1).  
+
+Across the brain, classifiers trained on terms performed substantially better than chance. Classifiers trained on latent topics performed more poorly, but remained above chance (Fig 2). 
+
+Normalized feature importances (Fig 3) revealed that certain topics particularly important specific regions (e.g. visual topic was most useful for classifying visual cortex). 
+
+### Conclusions
+Our analysis suggests that there is substantial differentiating information between regions in Neurosynth. Classification can be a useful tool for characterizing brain regions based on cognitive function in a data-drive manner. This method is consistent with existing neuroscientific knowledge but has the ability to reveal novel relationships between brain topography and cognition. 
+
+Figures (optional, 4 max)
+
+References (10 max)

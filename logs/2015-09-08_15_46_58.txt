@@ -1,0 +1,13 @@
+0.05
+Classifier: LassoLarsIC(copy_X=True, criterion='aic', eps=2.2204460492503131e-16,
+      fit_intercept=True, max_iter=500, normalize=True, precompute='auto',
+      verbose=False)
+Loading data from neurosynth...
+[#] 11%[##] 22%[###] 33%[####] 44%[#####] 55%[######] 66%[#######] 77%[########] 88%[##########] 100%
+Classifying...
+[#] 11%[##] 22%[###] 33%[####] 44%[#####] 55%[######] 66%[#######] 77%[########] 88%[##########] 100%
+../results/newmFC_kmeans_coact_m100_pca_9_LassoLarsIC_t0.05_cog_topics_60/
+_____________________
+Overall accuracy: 0.520959814217
+_____________________
+

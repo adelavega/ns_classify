@@ -1,0 +1,10 @@
+Classifier: Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=False, solver=auto, tol=0.001)
+Loading data from neurosynth...
+Classifying...
+[#] 10%[##] 20%[###] 30%[####] 40%[#####] 50%[######] 60%[#######] 70%[########] 80%[#########] 90%[##########] 100%
+../results/ward_10_Continous_Ridge_abs_topics_filt_7/
+_____________________
+Overall accuracy: 0.0956751905744
+_____________________
+

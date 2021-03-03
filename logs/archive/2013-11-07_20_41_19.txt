@@ -1,0 +1,16 @@
+ns_k_11
+Thresh = 0.05
+Topics
+Classifier: NuSVC(cache_size=200, coef0=0.0, degree=3, gamma=0.0, kernel=rbf, max_iter=-1,
+   nu=0.2, probability=False, random_state=None, shrinking=True, tol=0.001,
+   verbose=False)
+
+../clfs/../results/ns_k_11_NuSVC_grid_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.0482844347557
+Mask averages
+[0.059834870455101094, 0.048671141557931161, 0.040632387733701467, 0.046952267447188605, 0.023692898099483974, 0.034254222337618982, 0.054872033365814456, 0.032625996500207213, 0.06943683528902786, 0.037101893212235733, 0.083054236314715035]
+Making average map...
+Made../results/ns_k_11_NuSVC_grid_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_11_NuSVC_grid_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+
+[0;34mIn [[1;34m9[0;34m]: [0m

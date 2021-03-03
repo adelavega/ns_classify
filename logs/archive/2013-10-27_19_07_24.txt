@@ -1,0 +1,22 @@
+craddock_30
+Thresh = 0.05
+Topics
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/craddock_30_SVM_topics_reduced_.pkl
+Mask averages
+[-0.044726380714560053, -0.094026967791803362, -0.06659439638340274, -0.10830593856013594, 0.020213233127120554, -0.0067375780888604235, -0.029653473167439312, -0.051354375332262274, -0.089297534414423896, -0.021571945000384517, -0.046630688419098489, -0.005429867317068098, -0.034562123789872154, -0.042090165855269826, -0.023044566298875649, -0.047696729982493698, -0.024304233675386464, -0.024839733883121398, -0.053027647762851154, -0.048358464137704338, 0.01103903615768074, 0.022910159983128661, -0.024213606204409256, 0.010030896952103919, -0.014814566808693459, -0.036690744111536319, -0.014637654540945571, -0.13480689578479749, -0.18656565800670954, -0.0030971408535117309]
+Making average map...
+Made../results/craddock_30_SVM_topics_reduced_AvgClass.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_imps_shannons_0.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_imps_var_0.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_imps_cor_0.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_clf_shannons_0.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_imps_shannons_1.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_imps_var_1.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_imps_cor_1.nii.gz
+Made../results/craddock_30_SVM_topics_reduced_clf_shannons_1.nii.gz
+Making region heatmaps...
+Overall accuracy above baseline: -0.0404295250222

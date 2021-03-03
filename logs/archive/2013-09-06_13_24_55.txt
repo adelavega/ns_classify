@@ -1,0 +1,29 @@
+craddock_10
+Words
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+Mask averages
+[0.74921951331605541, 0.49023871708674982, 0.79309812802791535, 0.7472044987878621, 0.78842468298013924, 0.74875802154981985, 0.68884725896961885, 0.75574773749259283, 0.47505292192249254, 0.88181055214633886]
+Making average map...
+Made../results/craddock_10_GB_words_AvgClass.nii.gz
+Making various importance stat brain maps...
+Made../results/craddock_10_GB_words_imps_shannons_0.nii.gz
+Made../results/craddock_10_GB_words_imps_var_0.nii.gz
+Made../results/craddock_10_GB_words_imps_cor_0.nii.gz
+Made../results/craddock_10_GB_words_clf_shannons_0.nii.gz
+Made../results/craddock_10_GB_words_clf_var_0.nii.gz
+[ 2.63979024  3.13229061  2.42345781  2.53024635  2.55111469  2.98310627
+  2.40639495  2.47956934  2.35951791]
+
+[0;34mIn [[1;34m7[0;34m]: [0m
+[0;34mIn [[1;34m8[0;34m]: [0m
+[0;34mIn [[1;34m9[0;34m]: [0m
+[0;34mIn [[1;34m10[0;34m]: [0m
+[0;34mIn [[1;34m11[0;34m]: [0m
+[0;34mIn [[1;34m12[0;34m]: [0m
+[0;34mIn [[1;34m13[0;34m]: [0m
+[0;34mIn [[1;34m14[0;34m]: [0m
+[0;34mIn [[1;34m15[0;34m]: [0m

@@ -1,0 +1,112 @@
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_20_GB_topics_reduced_t_0.05_/
+_____________________
+Descriptive results:
+Overall accuracy: 0.115540663055
+Mask averages: [0.109, 0.092, 0.107, 0.098, 0.139, 0.1, 0.119, 0.127, 0.126, 0.12, 0.131, 0.116, 0.117, 0.114, 0.118, 0.114, 0.115, 0.105, 0.12, 0.124]
+_____________________
+
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/imps_shannons_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/imps_var_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/imps_cor_0.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/imps_shannons_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/imps_var_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/imps_cor_1.nii.gz
+Made../results/ns_k_20_GB_topics_reduced_t_0.05_/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/
+_____________________
+Descriptive results:
+Overall accuracy: 0.110346654999
+Mask averages: [0.096, 0.094, 0.094, 0.088, 0.138, 0.099, 0.114, 0.119, 0.123, 0.108, 0.114, 0.116, 0.111, 0.116, 0.125, 0.126, 0.11, 0.088, 0.097, 0.13]
+_____________________
+
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/imps_shannons_0.nii.gz
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/imps_var_0.nii.gz
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/imps_cor_0.nii.gz
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/imps_shannons_1.nii.gz
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/imps_var_1.nii.gz
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/imps_cor_1.nii.gz
+Made../results/ns_k_20_junk_GB_topics_reduced_t_0.05_/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_60_GB_topics_reduced_t_0.05_/
+_____________________
+Descriptive results:
+Overall accuracy: 0.103186561606
+Mask averages: [0.092, 0.103, 0.091, 0.099, 0.105, 0.104, 0.11, 0.098, 0.094, 0.131, 0.099, 0.086, 0.106, 0.096, 0.102, 0.114, 0.093, 0.095, 0.1, 0.098, 0.094, 0.107, 0.101, 0.095, 0.1, 0.1, 0.094, 0.101, 0.101, 0.103, 0.102, 0.11, 0.098, 0.09, 0.11, 0.103, 0.107, 0.103, 0.104, 0.113, 0.1, 0.104, 0.102, 0.107, 0.116, 0.111, 0.102, 0.097, 0.113, 0.109, 0.099, 0.116, 0.117, 0.099, 0.122, 0.099, 0.083, 0.107, 0.118, 0.119]
+_____________________
+
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/imps_shannons_0.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/imps_var_0.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/imps_cor_0.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/imps_shannons_1.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/imps_var_1.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/imps_cor_1.nii.gz
+Made../results/ns_k_60_GB_topics_reduced_t_0.05_/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Thresh = 0.05
+Topics
+Classifier: GradientBoostingClassifier(init=None, learning_rate=0.1, loss=deviance,
+              max_depth=3, max_features=None, min_samples_leaf=1,
+              min_samples_split=2, n_estimators=100, random_state=None,
+              subsample=1.0, verbose=0)
+
+../results/ns_k_60_junk_GB_topics_reduced_t_0.05_/
+_____________________
+Descriptive results:
+Overall accuracy: 0.103054439689
+Mask averages: [0.089, 0.1, 0.096, 0.09, 0.104, 0.099, 0.113, 0.093, 0.101, 0.127, 0.097, 0.083, 0.101, 0.1, 0.094, 0.116, 0.09, 0.1, 0.101, 0.092, 0.096, 0.104, 0.1, 0.098, 0.105, 0.107, 0.098, 0.103, 0.092, 0.096, 0.099, 0.112, 0.107, 0.103, 0.115, 0.102, 0.104, 0.1, 0.108, 0.117, 0.1, 0.108, 0.098, 0.107, 0.108, 0.109, 0.102, 0.103, 0.106, 0.104, 0.099, 0.112, 0.126, 0.107, 0.123, 0.103, 0.082, 0.104, 0.112, 0.119]
+_____________________
+
+Made../results/ns_k_60_junk_GB_topics_reduced_t_0.05_/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_60_junk_GB_topics_reduced_t_0.05_/imps_shannons_0.nii.gz
+Made../results/ns_k_60_junk_GB_topics_reduced_t_0.05_/imps_var_0.nii.gz
+
+[0;34mIn [[1;34m184[0;34m]: [0m
+[0;34mIn [[1;34m185[0;34m]: [0m
+[0;34mIn [[1;34m185[0;34m]: [0m
+[0;34mIn [[1;34m185[0;34m]: [0m
+[0;34mIn [[1;34m185[0;34m]: [0mDo you really want to exit ([y]/n)? 

@@ -1,0 +1,23 @@
+craddock_10
+Thresh = 0.05
+Words
+Topics
+Classifier: LinearSVC(C=1.0, class_weight=auto, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss=l2, multi_class=ovr, penalty=l2,
+     random_state=None, tol=0.0001, verbose=0)
+
+../clfs/../results/craddock_10_SVM_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: -0.0655280673758
+Mask averages
+[-0.096398040096095955, -0.02014392793480187, -0.053909279552932912, -0.11808450482047642, -0.062107265434583635, -0.094293698320458211, -0.027360894226335784, -0.059321720240344163, -0.055519559441824233, -0.068141783689965887]
+Making average map...
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_var_1.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05imps_cor_1.nii.gz
+Made../results/craddock_10_SVM_topics_reduced_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...

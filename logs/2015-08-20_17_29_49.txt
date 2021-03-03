@@ -1,0 +1,6 @@
+0.05
+Classifier: RidgeClassifierCV(alphas=array([  0.1,   1. ,  10. ]), class_weight=None,
+         cv=None, fit_intercept=True, normalize=False, scoring=None)
+Loading data from neurosynth...
+[###] 33%[######] 66%[##########] 100%
+Classifying...

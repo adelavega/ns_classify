@@ -1,0 +1,21 @@
+ns_k_11
+Thresh = 0.05
+Topics
+Classifier: NuSVC(cache_size=200, coef0=0.0, degree=3, gamma=0.0, kernel=rbf, max_iter=-1,
+   nu=0.2, probability=False, random_state=None, shrinking=True, tol=0.001,
+   verbose=False)
+
+../clfs/../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.0402196812321
+Mask averages
+[0.048412937325657213, 0.034075322437544318, 0.028439676100798006, 0.036330995590456105, 0.033050696130554703, 0.028999055024987553, 0.049434578559963402, 0.027777711359036207, 0.062930599260242581, 0.021019017051889789, 0.071945904711715164]
+Making average map...
+Made../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05AvgClass.nii.gz
+Made../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_11_ET_grid_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+
+[0;34mIn [[1;34m28[0;34m]: [0m
+[0;34mIn [[1;34m28[0;34m]: [0m

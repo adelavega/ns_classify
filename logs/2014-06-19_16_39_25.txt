@@ -1,0 +1,17 @@
+Classifier: ElasticNet(alpha=0.01, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+      max_iter=1000, normalize=False, positive=False, precompute=auto,
+      rho=None, tol=0.0001, warm_start=False)
+Loading data from neurosynth...
+[] 5%[#] 10%[#] 15%[##] 20%[##] 25%[###] 30%[###] 35%[####] 40%[####] 45%[#####] 50%[#####] 55%[######] 60%[######] 65%[#######] 70%[#######] 75%[########] 80%[########] 85%[#########] 90%[#########] 95%[##########] 100%
+Classifying...
+[] 5%[#] 10%[#] 15%[##] 20%[##] 25%[###] 30%[###] 35%[####] 40%[####] 45%[#####] 50%[#####] 55%[######] 60%[######] 65%[#######] 70%[#######] 75%[########] 80%[########] 85%[#########] 90%[#########] 95%[##########] 100%
+../results/ns_20_OvA_Elastic_DM_hard0_roc_abs_topics_filt_t_0.05_1/
+_____________________
+Descriptive results:
+Overall accuracy: 0.0898677831182
+Classifier averages: 0.589867783118
+Dummy averages: 0.5
+Correlation between dummy and clf: (nan, 1.0)
+Mask averages: [0.043, 0.123, 0.097, 0.112, 0.149, 0.068, 0.097, 0.06, 0.126, 0.121, 0.103, 0.083, 0.097, 0.036, 0.039, 0.052, 0.13, 0.093, 0.048, 0.122]
+_____________________
+

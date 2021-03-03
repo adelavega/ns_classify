@@ -1,0 +1,22 @@
+ns_k_20
+Thresh = 0.05
+Topics
+Classifier: NuSVC(cache_size=200, coef0=0.0, degree=3, gamma=0.0, kernel=rbf, max_iter=-1,
+   nu=0.15, probability=False, random_state=None, shrinking=True,
+   tol=0.001, verbose=False)
+
+../clfs/../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05.pkl
+Overall accuracy above baseline: 0.0145924483915
+Mask averages
+[0.011370193297668999, 0.013545865143269208, 0.0073920224242715691, -0.00050112296444474044, 0.011912552458586386, 0.023484247892697808, 0.017085873920739906, 0.0080677290557920351, 0.023054009723505589, 0.023839451058250284, 0.021971031255581707, 0.014342893628680109, 0.012530875934141051, 0.013758878762443819, 0.01854372290193523, 0.0078353889856730072, 0.012095280826519176, 0.0065494382463283764, 0.023657350981993969, 0.021313284297335536]
+Making average map...
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05_AvgClass.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05imps_shannons_0.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05imps_var_0.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05imps_cor_0.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05clf_shannons_0.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05imps_shannons_1.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05imps_var_1.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05imps_cor_1.nii.gz
+Made../results/ns_k_20_NuSVC_grid_topics_reduced_thresh_0.05clf_shannons_1.nii.gz
+Making region heatmaps...

@@ -1,0 +1,77 @@
+Classifier: RidgeClassifier(alpha=0.1, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+../results/ns_k_20_Ridge_0.1_topics_t_0.07/
+_____________________
+Descriptive results:
+Overall accuracy: 0.112889000194
+Mask averages: [0.109, 0.111, 0.093, 0.096, 0.139, 0.092, 0.107, 0.151, 0.121, 0.116, 0.11, 0.119, 0.102, 0.138, 0.102, 0.109, 0.111, 0.138, 0.107, 0.088]
+_____________________
+
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/imps_shannons_0.nii.gz
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/imps_var_0.nii.gz
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/imps_cor_0.nii.gz
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/imps_shannons_1.nii.gz
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/imps_var_1.nii.gz
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/imps_cor_1.nii.gz
+Made../results/ns_k_20_Ridge_0.1_topics_t_0.07/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Classifier: RidgeClassifier(alpha=0.5, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+../results/ns_k_20_Ridge_0.5_topics_t_0.07/
+_____________________
+Descriptive results:
+Overall accuracy: 0.112880391108
+Mask averages: [0.109, 0.111, 0.093, 0.096, 0.139, 0.092, 0.107, 0.151, 0.121, 0.116, 0.11, 0.119, 0.102, 0.138, 0.101, 0.109, 0.111, 0.138, 0.107, 0.088]
+_____________________
+
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/imps_shannons_0.nii.gz
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/imps_var_0.nii.gz
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/imps_cor_0.nii.gz
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/imps_shannons_1.nii.gz
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/imps_var_1.nii.gz
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/imps_cor_1.nii.gz
+Made../results/ns_k_20_Ridge_0.5_topics_t_0.07/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Classifier: RidgeClassifier(alpha=0.7, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
+
+../results/ns_k_20_Ridge_0.7_topics_t_0.07/
+_____________________
+Descriptive results:
+Overall accuracy: 0.112899057062
+Mask averages: [0.109, 0.111, 0.093, 0.096, 0.139, 0.092, 0.107, 0.151, 0.121, 0.116, 0.11, 0.119, 0.101, 0.138, 0.102, 0.109, 0.111, 0.138, 0.107, 0.088]
+_____________________
+
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/avg_class.nii.gz
+Made average accuracy map
+Making consistency brain maps..
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/imps_shannons_0.nii.gz
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/imps_var_0.nii.gz
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/imps_cor_0.nii.gz
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/acc_shannons_0.nii.gz
+Making sparsity brain maps..
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/imps_shannons_1.nii.gz
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/imps_var_1.nii.gz
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/imps_cor_1.nii.gz
+Made../results/ns_k_20_Ridge_0.7_topics_t_0.07/acc_shannons_1.nii.gz
+Making consistency heat maps...
+Making sparsity heat maps...
+Making feature importance heatmaps...
+Classifier: RidgeClassifier(alpha=0.7, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver=auto, tol=0.001)
